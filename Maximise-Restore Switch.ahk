@@ -11,3 +11,30 @@
 * Script Function:     Maximise/restore the current window.                                    *
 ************************************************************************************************
 */
+
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+#NoTrayIcon
+
+
+
+
+WinGet, isMax, MinMax, A
+if isMax
+	WinRestore, A
+else
+	WinMaximize, A
+return
+
+
+
+
+/*
+************************************************************************************************
+Maximise-Restore Switch Version History:
+1.0 - Created Maximise-Restore Switch.
+************************************************************************************************
+*/
