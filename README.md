@@ -2,7 +2,7 @@
 ************************************************************************************************
 * Maximise-Restore Switch                                                                      *
 *                                                                                              *
-* Version:             1.0 (version history at the bottom of this script)                      *
+* Version:             1.1 (version history at the bottom of this script)                      *
 * AutoHotkey Version:  1.1                                                                     *
 * Language:            English                                                                 *
 * Platform:            Windows 7, 8                                                            *
@@ -18,6 +18,7 @@
 /*
 ************************************************************************************************
 Maximise-Restore Switch Version History:
+1.1 - Added #SingleInstance.
 1.0 - Created Maximise-Restore Switch.
 ************************************************************************************************
 */
